@@ -83,7 +83,7 @@ h5,
   margin: 10px;
 }
 .section-heading h2 {
-  font-size: 3rem;
+  font-size: 2, 5rem;
   position: relative;
 }
 .section-heading h2:after {
@@ -103,11 +103,11 @@ h5,
 }
 
 .sticky + .about {
-  padding-top: 155px;
+  padding-top: 140px;
 }
 
 .navbar {
-  margin-bottom: 50px;
+  margin-bottom: 35px;
   box-shadow: 0.3px 0.5px 0.5px hsla(0, 0%, 63%, 0.5), 0.9px 1.8px 1.9px -0.5px hsla(0, 0%, 63%, 0.46), 1.8px 3.5px 3.7px -1.1px hsla(0, 0%, 63%, 0.42), 3.3px 6.7px 7px -1.6px hsla(0, 0%, 63%, 0.38), 6px 12px 12.6px -2.1px hsla(0, 0%, 63%, 0.34), 10.2px 20.4px 21.4px -2.7px hsla(0, 0%, 63%, 0.29), 16.4px 32.8px 34.4px -3.2px hsla(0, 0%, 63%, 0.25), 25px 50px 52.4px -3.7px hsla(0, 0%, 63%, 0.21);
   z-index: 1000;
   background-color: #ffffff;
@@ -134,9 +134,9 @@ h5,
 }
 
 .nav-item > a {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   color: #444649;
-  margin: 15px;
+  margin: 10px;
 }
 .nav-item > a:hover {
   color: #ff4858;
@@ -453,6 +453,15 @@ header h1, header p {
   }
 }
 
+/* Certificates section (white background) */
+.certificates {
+  background-color: #ffffff;
+  padding: 60px 0px;
+}
+.certificates > .section-heading {
+  padding: 50px;
+}
+
 .certificate {
   display: flex;
   justify-content: center;
@@ -484,6 +493,54 @@ header h1, header p {
   .certificate {
     flex-direction: row;
   }
+}
+
+.customers {
+  background-color: #f2f2f2;
+  padding: 60px 0px;
+}
+.customers > .section-heading {
+  padding: 50px;
+}
+
+.customers__container {
+  margin: 0px auto;
+  text-align: center;
+}
+
+.customers__item {
+  margin: 15px 0px;
+}
+
+.customers__card {
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: 0.3px 0.5px 0.5px hsla(0, 0%, 63%, 0.54), 0.6px 1.2px 1.3px -1.2px hsla(0, 0%, 63%, 0.45), 1.9px 3.7px 3.9px -2.5px hsla(0, 0%, 63%, 0.36), 5px 10px 10.5px -3.7px hsla(0, 0%, 63%, 0.27);
+}
+.customers__card img {
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.customers__card .customers__fallback {
+  display: none;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  color: #444649;
+}
+
+.customers__name {
+  margin-top: 10px;
+  font-weight: 500;
 }
 
 .contact {

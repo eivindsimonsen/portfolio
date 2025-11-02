@@ -8,11 +8,11 @@
 }
 
 .sticky + .about {
-  padding-top: 155px;
+  padding-top: 140px;
 }
 
 .navbar {
-  margin-bottom: 50px;
+  margin-bottom: 35px;
   @include shadow-elevation-high();
   z-index: 1000;
   background-color: $link-color;
@@ -43,9 +43,9 @@
 
 .nav-item {
   & > a {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     color: $text-color;
-    margin: 15px;
+    margin: 10px;
   }
 
   & > a:hover {

@@ -64,7 +64,10 @@
                 <a class="nav-link active-projects" href="#projects">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active-contact" href="#contact">Contact</a>
+                <a class="nav-link active-certificates" href="#certificates">Certificates</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active-contact" href="#customers">Customers</a>
               </li>
             </ul>
           </div>
@@ -161,7 +164,7 @@
         <div class="projects__container container row"></div>
       </section>
       <!-- Certificates -->
-      <section class="projects">
+      <section class="certificates" id="certificates">
         <div class="section-heading">
           <h2 class="smaller-title">Certificates</h2>
         </div>
@@ -170,7 +173,18 @@
           <img src="./img/sql-diplom.jpg" alt="Certificate for sql course" />
         </div>
       </section>
-      <!-- Contact section -->
+      <!-- Customers section (replaces Contact). The original form is kept commented below for reference. -->
+      <section class="customers" id="customers">
+        <div class="section-heading">
+          <h2>Customers I've worked with</h2>
+        </div>
+        <div class="customers__container container row"></div>
+        <div class="to-top">
+          <a href="#"><i class="fas fa-arrow-alt-circle-up"></i></a>
+        </div>
+      </section>
+
+      <!--
       <section class="contact" id="contact">
         <div class="section-heading">
           <h2>Contact</h2>
@@ -178,16 +192,12 @@
         <form name="contact-form" method="POST" data-netlify="true" netlify-honeypot="bot-field">
           <label for="name">Name:</label>
           <input name="name" type="text" id="name" placeholder="Full name" />
-
           <label for="email">Email:</label>
           <input name="email" type="email" id="email" placeholder="Your mail" />
-
           <label for="subject">Subject:</label>
           <input name="subject" type="text" id="subject" placeholder="Subject" />
-
           <label for="message">Message:</label>
           <textarea name="message" id="message" placeholder="Your message" cols="30" rows="10"></textarea>
-
           <div class="field">
             <div data-netlify-recaptcha="true"></div>
           </div>
@@ -196,10 +206,8 @@
           </p>
           <button class="cta disabled" disabled>Submit</button>
         </form>
-        <div class="to-top">
-          <a href="#"><i class="fas fa-arrow-alt-circle-up"></i></a>
-        </div>
       </section>
+      -->
     </main>
     <footer>
       <ul class="nav justify-content-center">

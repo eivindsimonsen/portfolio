@@ -6,7 +6,6 @@ export const projects = [
     modalNr: "modal-fiftheen",
     websiteLink: "https://eas-tip-calculator.netlify.app/",
     githubLink: "https://github.com/eivindsimonsen/tip-calculator-app",
-    icons: ['<i class="fa-brands fa-react"></i><i class="fa-brands fa-css"></i>'],
   },
   {
     name: "World Countries",
@@ -15,7 +14,6 @@ export const projects = [
     modalNr: "modal-fourtheen",
     websiteLink: "https://eas-world-countries.netlify.app/",
     githubLink: "https://github.com/eivindsimonsen/world-countries",
-    icons: ['<i class="fa-brands fa-react"></i><i class="fa-brands fa-sass"></i>'],
   },
   {
     name: "Interactive cards",
@@ -24,7 +22,6 @@ export const projects = [
     modalNr: "modal-thirteen",
     websiteLink: "https://eas-interactive-card.netlify.app/",
     githubLink: "https://github.com/eivindsimonsen/interactive-card",
-    icons: ['<i class="fa-brands fa-react"></i><i class="fa-brands fa-sass"></i>'],
   },
   {
     name: "Gamehub Remastered",
@@ -33,17 +30,15 @@ export const projects = [
     modalNr: "modal-twelve",
     websiteLink: "https://gamehubremastered.netlify.app/",
     githubLink: "https://github.com/eivindsimonsen/gamehub-REMASTERED",
-    icons: ['<i class="fa-brands fa-react"></i><i class="fa-brands fa-sass"></i><i class="fa-solid fa-database"></i>'],
   },
-  {
+  /* {
     name: "Messaging App",
     content: "Messaging app which takes use of Firebase DB for CRUD operations. Also including login auth which is neccesary for posting a comment. Posts are viewed based on amount of likes.",
     image: "../../img/message.jpg",
     modalNr: "modal-eleven",
     websiteLink: "https://eas-messaging.netlify.app/",
     githubLink: "https://github.com/eivindsimonsen/messaging-app",
-    icons: ['<i class="fa-brands fa-react"></i><i class="fa-brands fa-sass"></i><i class="fa-solid fa-database"></i> TypeScript'],
-  },
+  }, */
   {
     name: "Multi step form",
     content: "This app uses react state + custom hook as its backbone. It features four different forms which are all intertwined as a carousel. All fields have validation (except the add ons form). When the full form is filled, a summary of all your inputs is displayed. If submitted, the form data is sent to a firebase database for storage.",
@@ -51,25 +46,22 @@ export const projects = [
     modalNr: "modal-ten",
     websiteLink: "https://eas-multi-step-form.netlify.app/",
     githubLink: "https://github.com/eivindsimonsen/multi-step-form",
-    icons: ['<i class="fa-brands fa-react"></i><i class="fa-brands fa-sass"></i><i class="fa-solid fa-database"></i>'],
   },
-  {
+  /* {
     name: "Todo app",
     content: "This todo app is my first try with creating a full CRUD app with the use of firebase SDK. It lets you add, update, and delete todos. The todos list is also preserved after refresh, because content is stored in firebases database. I will work on adding a login authentication system, so that only logged in users can add todos.",
     image: "../../img/screenshot-todo.JPG",
     modalNr: "modal-nine",
     websiteLink: "https://eas-todos-app.netlify.app/",
     githubLink: "https://github.com/eivindsimonsen/todo-app",
-    icons: ['<i class="fa-brands fa-react"></i><i class="fa-brands fa-sass"></i><i class="fa-solid fa-database"></i>'],
-  },
+  }, */
   {
     name: "Url shortening app",
-    content: "This website lets you shorten whatever link to a short and consize state. It takes use of the https://shrtco.de/ api, and stores the values retrived by making a get request with the link pasted in, which can be copied directly to the clipboard. Design was provided by Frontend Mentor",
+    content: "This website lets you shorten whatever link to a short and consize state. It takes use of the https://shrtco.de/ api, and stores the values retrived by making a get request with the link pasted in, which can be copied directly to the clipboard. Design was provided by Frontend Mentor. The shortening service no longer works, but the code is still available.",
     image: "../../img/url-shortener.JPG",
     modalNr: "modal-eight",
     websiteLink: "https://url-shortener-eas.netlify.app/",
     githubLink: "https://github.com/eivindsimonsen/url-shortening-app-landing-page",
-    icons: ['<i class="fa-brands fa-react"></i><i class="fa-brands fa-sass"></i> API'],
   },
   /* {
     name: "Advice generator app",
@@ -78,7 +70,6 @@ export const projects = [
     modalNr: "modal-seven",
     websiteLink: "https://advice-generator-eas.netlify.app/",
     githubLink: "https://github.com/eivindsimonsen/advice-generator-app",
-    icons: ['<i class="fa-brands fa-react"></i> TailwindCSS, API'],
   }, */
   /* {
     name: "Blogr landing page",
@@ -87,25 +78,30 @@ export const projects = [
     modalNr: "modal-six",
     websiteLink: "https://blogr-eas.netlify.app/",
     githubLink: "https://github.com/eivindsimonsen/blogr-landing-page",
-    icons: ['<i class="fa-brands fa-react"></i><i class="fa-brands fa-sass"></i>'],
   }, */
-  {
+/*   {
     name: "React E-commerce website",
     content: "This project was made in my freetime to develop my skills in React further. It features state management from several components to store and send shopping cart data. It also features a gallery with a modal functionality. Styles was made with SASS.",
     image: "../../img/react-ecommerce.JPG",
     modalNr: "modal-five",
     websiteLink: "https://react-ecommerce-eas.netlify.app/",
     githubLink: "https://github.com/eivindsimonsen/react-ecommerce",
-    icons: ['<i class="fa-brands fa-react"></i><i class="fa-brands fa-sass"></i>'],
-  },
+  }, */
   {
     name: "Personalforeningen i Coop Øst",
-    content: "My boss reached out and said he needed a website for Coop Øst's own staff association. Me and a fellow developer set out for the challenge. The websites purpose is to give information about what the association can offer for employees in Coop Øst. The association offers among other things, cheaper cabin rental. The website is built with REACT and SASS as pre-processor, with wordpress REST api for content. My boss can now fully change the content on the page, without reaching out to the devs.",
+    content: "Personalforeningen was an internal website for Coop Øst's own staff association. It was built with React and SASS as pre-processor, and uses the wordpress REST api for content. The website is used by the association to manage their members and events.",
     image: "../../img/personalforeningen.JPG",
     modalNr: "modal-four",
     websiteLink: "https://personalforeningen.com/",
     githubLink: "https://github.com/emiost/personal",
-    icons: ['<i class="fa-brands fa-react"></i><i class="fa-brands fa-sass"></i><i class="fa-brands fa-wordpress"></i>'],
+  },
+  {
+    name: "Lift training app",
+    content: "This is a lift tracking system that I developed for personal use. It allows me to track each of my workouts, and see my progress over time.",
+    image: "../../img/lift.png",
+    modalNr: "modal-five",
+    websiteLink: "https://lift-training-log.netlify.app/",
+    githubLink: "https://github.com/eivindsimonsen/lift-workout-app",
   },
   /*  {
     name: "Holidaze - Hotel booking site",
@@ -114,17 +110,15 @@ export const projects = [
     modalNr: "modal-three",
     websiteLink: "https://holidazeeivindsimonsen.netlify.app/",
     githubLink: "https://github.com/Noroff-FEU-Assignments/project-exam-2-eivindsimonsen",
-    icons: ['<i class="fa-brands fa-react"></i><i class="fa-brands fa-sass"></i><i class="fa-brands fa-wordpress"></i>'],
   }, */
-  {
+  /* {
     name: "Discord landing-page clone",
     content: "This project was for practicing my react skills with use of components and stylings. My goal was to design the home page of the discord website without getting help from inspecting their code.",
     image: "../../img/discord.JPG",
     modalNr: "modal-two",
     websiteLink: "",
     githubLink: "https://github.com/eivindsimonsen/discord-clone",
-    icons: ['<i class="fa-brands fa-react"></i><i class="fa-brands fa-sass"></i>'],
-  },
+  }, */
   /* {
     name: "Guitar Kings",
     content: "This project was my first complete website. It only takes use of HTML and CSS, and was only meant for taking those languages into practice.",
@@ -132,6 +126,5 @@ export const projects = [
     modalNr: "modal-one",
     websiteLink: "https://silly-golick-a22c03.netlify.app/",
     githubLink: "https://github.com/EivindSimonsen/guitarkings",
-    icons: ['<i class="fa-brands fa-html5"></i><i class="fa-brands fa-css3-alt"></i><i class="fa-brands fa-square-js"></i>'],
   }, */
 ];
