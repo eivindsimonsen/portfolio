@@ -1,6 +1,16 @@
 {
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/css"
+    }
+  ],
+  "liveSassCompile.settings.generateMap": true,
+}
+/* {
     "codesnap.backgroundColor": "none",
     "codesnap.boxShadow": "none",
     "codesnap.containerPadding": "none",
     "codesnap.showWindowTitle": false
-}
+} */

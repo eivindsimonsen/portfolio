@@ -275,6 +275,10 @@ header h1, header p {
   width: 300px;
   height: 300px;
   border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center 10%;
+     object-position: center 10%;
   box-shadow: 0.3px 0.5px 0.5px hsla(0, 0%, 63%, 0.5), 0.9px 1.8px 1.9px -0.5px hsla(0, 0%, 63%, 0.46), 1.8px 3.5px 3.7px -1.1px hsla(0, 0%, 63%, 0.42), 3.3px 6.7px 7px -1.6px hsla(0, 0%, 63%, 0.38), 6px 12px 12.6px -2.1px hsla(0, 0%, 63%, 0.34), 10.2px 20.4px 21.4px -2.7px hsla(0, 0%, 63%, 0.29), 16.4px 32.8px 34.4px -3.2px hsla(0, 0%, 63%, 0.25), 25px 50px 52.4px -3.7px hsla(0, 0%, 63%, 0.21);
 }
 .description > * {
