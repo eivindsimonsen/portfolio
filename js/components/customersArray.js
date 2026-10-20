@@ -27,5 +27,9 @@ export const customers = [
     name: "Eiendomsfinans",
     image: "../../img/customers/ef.jpg",
   },
+  {
+    name: "Norges sjømatråd",
+    image: "../../img/customers/ns.webp",
+  },
 ];
 
